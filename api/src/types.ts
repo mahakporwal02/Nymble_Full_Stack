@@ -8,6 +8,7 @@ export interface Movie {
     vote_count: number
     adult: boolean
     genre_ids: number[]
+    src: string
 }
 
 export interface Genre {
